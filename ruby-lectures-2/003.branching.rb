@@ -1,6 +1,6 @@
 puts "A program can take a certain path or flow based on an expression's value."
 
-if (1 < 2)
+if (1 < 2) # true
   puts "Since 1 is less than 2, you see this line."
 else
   puts "You will not see this line."
