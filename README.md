@@ -1,5 +1,10 @@
 # Videos
 
+
+
+
+[08 Procedural Labs Reviews 1 - Hashes and Random](http://flatiron-videos.s3.amazonaws.com/web-0615/apples-lab-review.mp4)
+[07 Procedural Labs Reviews 1 - Guessing CLI / Hashes](http://flatiron-videos.s3.amazonaws.com/web-0615/hash-and-iteration-review.mp4)
 [06 Iteration and Enumerables](http://flatiron-videos.s3.amazonaws.com/web-0615/iteraation.and.enumerables.mp4)
 [05 Arrays](http://flatiron-videos.s3.amazonaws.com/web-0615/arrays-basics.mp4)
 [04 Fizzbuzz](http://flatiron-videos.s3.amazonaws.com/web-0615/fizzbuzz.mp4)
