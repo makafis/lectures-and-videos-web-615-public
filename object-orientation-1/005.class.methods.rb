@@ -1,0 +1,1 @@
+part4.class.methods.rb
