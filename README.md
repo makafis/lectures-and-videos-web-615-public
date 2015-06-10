@@ -1,5 +1,6 @@
 # Videos
 
+[12 Intro to Scraping](http://flatiron-videos.s3.amazonaws.com/web-0615/intro-to-scraping.mp4)
 [11 Jukebox CLI Review](http://flatiron-videos.s3.amazonaws.com/web-0615/jukebox-cli.mp4)
 [10 Hashketball](http://flatiron-videos.s3.amazonaws.com/web-0615/hashketball.mp4)
 [09 Object Orientation](http://flatiron-videos.s3.amazonaws.com/web-0615/object-oroentation.mp4)
