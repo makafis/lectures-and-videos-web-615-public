@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative "../config/environment"
+
+puts "Which semester would you like to scrape?"
+semester = gets.strip
+StudentCLI.new(semester).call
