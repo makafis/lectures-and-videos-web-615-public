@@ -1,5 +1,6 @@
 # Videos
 
+* [14 Refactoring Student Scrape to OO](http://flatiron-videos.s3.amazonaws.com/web-0615/refactoring-student-scrape-to-objects.mp4)
 * [13 Procedural Student Scrape](http://flatiron-videos.s3.amazonaws.com/web-0615/procedural-student-scrape.mp4)
 * [12 Intro to Scraping](http://flatiron-videos.s3.amazonaws.com/web-0615/intro-* to-scraping.mp4)
 * [11 Jukebox CLI Review](http://flatiron-videos.s3.amazonaws.com/web-* 0615/jukebox-cli.mp4)
