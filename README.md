@@ -1,5 +1,6 @@
 # Videos
 
+* [13 Procedural Student Scrape](http://flatiron-videos.s3.amazonaws.com/web-0615/procedural-student-scrape.mp4)
 * [12 Intro to Scraping](http://flatiron-videos.s3.amazonaws.com/web-0615/intro-* to-scraping.mp4)
 * [11 Jukebox CLI Review](http://flatiron-videos.s3.amazonaws.com/web-* 0615/jukebox-cli.mp4)
 * [10 Hashketball](http://flatiron-videos.s3.amazonaws.com/web-0615/hashketball.* mp4)
@@ -11,4 +12,4 @@
 * [04 Fizzbuzz](http://flatiron-videos.s3.amazonaws.com/web-0615/fizzbuzz.mp4)
 * [03 Loops](http://flatiron-videos.s3.amazonaws.com/web-0615/loops-and-white-and* -receivers.mp4)
 * [02 Logic](http://flatiron-videos.s3.amazonaws.com/web-0615/ruby-conditions-if.* mp4)
-* [01 Variables and Methods](http://flatiron-videos.s3.amazonaws.com/web-* 0615/ruby-variables-and-methods.mp4)* 
+* [01 Variables and Methods](http://flatiron-videos.s3.amazonaws.com/web-* 0615/ruby-variables-and-methods.mp4)
