@@ -1,0 +1,11 @@
+How are Artists and Song ranked?
+  simply give artist and songs a rank.
+
+  kanye = Artist.new
+  kanye.rank = 1
+
+We need to keep track of all the artists
+
+  
+
+
