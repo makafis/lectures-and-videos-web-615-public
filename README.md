@@ -1,5 +1,7 @@
 # Videos
 
+* [16 OO Review and Modules](http://flatiron-videos.s3.amazonaws.com/web-0615/oo-review-and-modules.mp4)
+* [15 Moronic Mondays Week 3](http://flatiron-videos.s3.amazonaws.com/web-0615/moronic-monday-week-3.mp4)
 * [14 Refactoring Student Scrape to OO](http://flatiron-videos.s3.amazonaws.com/web-0615/refactoring-student-scrape-to-objects.mp4)
 * [13 Procedural Student Scrape](http://flatiron-videos.s3.amazonaws.com/web-0615/procedural-student-scrape.mp4)
 * [12 Intro to Scraping](http://flatiron-videos.s3.amazonaws.com/web-0615/intro-to-scraping.mp4)
