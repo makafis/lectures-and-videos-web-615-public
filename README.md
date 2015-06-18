@@ -1,5 +1,9 @@
 # Videos
 
+* [20 SQL Joins and ORMs](https://www.youtube.com/watch?v=ZfS1EEF5GWA)
+* [19 SQL Lecture 1](https://www.youtube.com/watch?v=fmYVLDLlx3g)
+* [18 Playlister RB and CLI Review](https://www.youtube.com/watch?v=LRX0aZj9v7Y)
+* [17 School Domain Review](https://www.youtube.com/watch?v=LKtwGEpUwq8)
 * [16 OO Review and Modules](http://flatiron-videos.s3.amazonaws.com/web-0615/oo-review-and-modules.mp4)
 * [15 Moronic Mondays Week 3](http://flatiron-videos.s3.amazonaws.com/web-0615/moronic-monday-week-3.mp4)
 * [14 Refactoring Student Scrape to OO](http://flatiron-videos.s3.amazonaws.com/web-0615/refactoring-student-scrape-to-objects.mp4)
