@@ -16,6 +16,6 @@ CREATE TABLE carts (
 
 CREATE TABLE line_items (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  product_id INTEGER,
-  cart_id INTEGER
+  cart_id INTEGER,
+  product_id INTEGER
 );
