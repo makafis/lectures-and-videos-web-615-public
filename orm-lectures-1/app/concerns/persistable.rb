@@ -1,5 +1,9 @@
 module Persistable
   module ClassMethods
+    def attributes
+      self::ATTRIBUTES
+    end
+
     def db
       DB[:conn]
     end    
@@ -63,6 +67,11 @@ module Persistable
   end
 
   module InstanceMethods
+    def self.included(base)
+      base.send(:attr_accessor, *base.public_attributes)
+      base.send(:attr_reader, :id)
+    end
+
     def initialize(id = nil)
       @id = id
     end
@@ -127,11 +136,3 @@ module Persistable
       end    
   end
 end
-
-
-
-
-
-
- 
-
