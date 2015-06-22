@@ -1,5 +1,6 @@
 # Videos
 
+* [21 Abstract ORMS](http://youtu.be/PSgdm23ot_Q)
 * [20 SQL Joins and ORMs](https://www.youtube.com/watch?v=ZfS1EEF5GWA)
 * [19 SQL Lecture 1](https://www.youtube.com/watch?v=fmYVLDLlx3g)
 * [18 Playlister RB and CLI Review](https://www.youtube.com/watch?v=LRX0aZj9v7Y)
