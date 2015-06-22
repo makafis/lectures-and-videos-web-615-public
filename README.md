@@ -1,5 +1,6 @@
 # Videos
 
+* [22 AR Intro](https://youtu.be/5bvTGH8gsR0)
 * [21 Abstract ORMS](http://youtu.be/PSgdm23ot_Q)
 * [20 SQL Joins and ORMs](https://www.youtube.com/watch?v=ZfS1EEF5GWA)
 * [19 SQL Lecture 1](https://www.youtube.com/watch?v=fmYVLDLlx3g)
