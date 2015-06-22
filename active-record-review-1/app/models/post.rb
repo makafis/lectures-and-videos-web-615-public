@@ -1,12 +1,7 @@
-class Post
-  ATTRIBUTES = {
-    :id => "INTEGER PRIMARY KEY AUTOINCREMENT",
-    :title => "TEXT",
-    :content => "TEXT",
-    :author_name => "TEXT"
-  }
-
-  extend Persistable::ClassMethods
-  include Persistable::InstanceMethods
-
+class Post < ActiveRecord::Base
+  def summary
+    content = self.content
+    sentences = content.split(".")
+    "#{sentences[0..1].join(".")}..."
+  end
 end
