@@ -1,0 +1,31 @@
+require_relative 'config/environment'
+
+desc 'Will load a console with the environment'
+task :console do
+  def reload!
+    load_all 'app'
+  end
+  
+  Pry.start
+end
+
+namespace :db do
+  task :migrate do 
+    # Iterate over all the files in db/migrate
+    files = Dir["db/migrate/*.rb"]
+    files.each do |file|
+      require_relative file
+      migration_camel_case = file.gsub(/\d+_/, "").
+                              gsub(".rb", "").
+                              gsub("db/migrate/", "").
+                              split("_").
+                              collect{|w| w.capitalize}
+                              .join
+      Kernel.const_get(migration_camel_case).migrate(:up)
+
+      # I need the constant the file defined
+      # and then I need to call migrate(:up)
+    end
+    
+  end
+end
