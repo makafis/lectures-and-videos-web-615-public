@@ -1,5 +1,6 @@
 # Videos
 
+* [23 Moronic Monday Week 4](https://www.youtube.com/watch?v=Wr59TKvbu94&feature=youtu.be)
 * [22 AR Associations](https://www.youtube.com/watch?v=wVrjKoJaJv8&feature=youtu.be)
 * [22 AR Intro](https://youtu.be/5bvTGH8gsR0)
 * [21 Abstract ORMS](http://youtu.be/PSgdm23ot_Q)
