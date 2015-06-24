@@ -1,5 +1,6 @@
 # Videos
 
+* [24 ERB Intro](https://www.youtube.com/watch?v=mbdXGZGFYfw&feature=youtu.be)
 * [23 Moronic Monday Week 4](https://www.youtube.com/watch?v=Wr59TKvbu94&feature=youtu.be)
 * [22 AR Associations](https://www.youtube.com/watch?v=wVrjKoJaJv8&feature=youtu.be)
 * [22 AR Intro](https://youtu.be/5bvTGH8gsR0)
