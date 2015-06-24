@@ -11,7 +11,12 @@ class Post < ActiveRecord::Base
   end
 
   def add_tag(tag)
-    self.post_tags.create(:tag => tag)
-    # self.tags << tag
+    # self.post_tags.create(:tag => tag)
+    self.tags << tag
+  end
+
+  def add_tag_by_name(name)
+    tag = Tag.find_or_create_by(:name => tag_name)
+    self.add_tag(tag)
   end
 end

@@ -9,3 +9,10 @@ task :console do
   
   Pry.start
 end
+
+desc 'Generate a static site in _site'
+task :generate do
+  require 'fileutils'
+  require 'erb'
+  SiteGenerator.new.call
+end
