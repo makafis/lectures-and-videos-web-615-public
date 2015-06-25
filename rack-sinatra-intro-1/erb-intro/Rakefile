@@ -1,0 +1,25 @@
+require_relative './config/environment'
+require 'sinatra/activerecord/rake'
+
+desc 'Loads an interactive PRY console with your environment.'
+task :console do
+  Pry.start
+end
+
+# task :seed do
+#   load './db/seeds.rb'
+# end
+
+task :write do
+  puts "What would you like the title of this post to be?"
+  title = STDIN.gets.strip
+
+  puts "Please paste in some content:"
+  content = STDIN.gets.strip
+
+  Post.create(:title => title, :content => content)
+end
+
+task :generate do
+  SiteGenerator.new.call #=> n+1 html files within _site
+end

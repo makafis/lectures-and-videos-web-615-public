@@ -1,0 +1,5 @@
+<ol>
+  <% @posts.each do |post| %>
+    <li><strong><%= post.title %>:</strong> <%= post.content %></li>
+  <% end %>
+</ol>

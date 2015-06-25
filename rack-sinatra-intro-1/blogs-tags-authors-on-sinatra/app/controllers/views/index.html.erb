@@ -1,0 +1,8 @@
+<H1>Welcome to My Blog!</h1>
+<h2>Blog Posts: <%= Post.count %></h2>
+
+<ol>
+<% @posts.each do |post| %>
+  <li><a href="posts/<%= post.id %>.html"><%= post.title %></a></li>
+<% end %>
+</ol>

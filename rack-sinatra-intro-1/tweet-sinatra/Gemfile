@@ -1,0 +1,12 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+# gem "rails"
+gem 'sinatra'
+gem 'require_all'
+gem 'twitter'
+gem 'shotgun'
+gem 'pry'
+gem 'sinatra-activerecord'
+gem 'rake'
+gem 'sqlite3'

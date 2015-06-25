@@ -1,0 +1,9 @@
+<h1><%= @post.title %></h1>
+
+<% if @post.author.present? %>
+  <h2><%= @post.author.name %></h2>
+<% else %>
+  <h2>Anon</h2>
+<% end %>
+
+<p><%= @post.content %></p>
