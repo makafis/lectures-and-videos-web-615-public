@@ -1,5 +1,6 @@
 # Videos
 
+* [27 Sinatra TDD Intro](https://www.youtube.com/watch?v=RT0wfX_Ezuo)
 * [26 Rack Sinatra Intro](http://youtu.be/qPNb12v_WMw)
 * [25 ERB Intro](https://www.youtube.com/watch?v=mbdXGZGFYfw&feature=youtu.be)
 * [24 HasManyThrough](https://www.youtube.com/watch?v=gK6yZHVqetE&feature=youtu.be)
