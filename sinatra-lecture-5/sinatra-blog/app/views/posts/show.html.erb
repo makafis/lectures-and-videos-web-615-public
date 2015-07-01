@@ -1,0 +1,10 @@
+<h1><%= @post.title %> <small><a href="/posts/<%= @post.id %>/edit">edit</a></small></h1>
+
+<h2><%= @post.author.name %></h2>
+
+<h3>
+  <%#= @post.tags.collect(&:name).join(", ") %>
+  <%= @post.tags.collect{|t| t.name}.join(", ") %>
+</h3>
+
+<p><%= @post.content %></p>

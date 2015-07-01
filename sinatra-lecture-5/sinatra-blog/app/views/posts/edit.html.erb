@@ -1,0 +1,16 @@
+<form action="/posts/<%= @post.id %>" method="POST">
+  <input type="hidden" name="_method" value="PUT">
+
+
+  <p>
+    <label>Title</label>                      
+    <input type="text" name="post[title]" value="<%= @post.title %>">
+  </p>
+
+  <p>
+    <label>Content</label>
+    <textarea name="post[content]"><%= @post.content %></textarea>
+  </p>
+
+  <input type="submit" value="Update" id="update">
+</form> {:title => "New Title", :content => "TEst"}
