@@ -1,0 +1,30 @@
+<form action="/posts/<%= @post.id %>" method="POST">
+  <input type="hidden" name="_method" value="PUT">
+
+  <p>
+    <label>Title</label>                      
+    <input type="text" name="post[title]" value="<%= @post.title %>">
+  </p>
+
+  <p>
+    <label>Author Name</label>
+    <input type="text" name="post[author_name]">
+  </p>
+
+  <ul>
+    <% @tags.each do |tag| %>
+      <li>
+        <%= tag.name %> <input type="checkbox" name="post[tag_ids][]" value="<%= tag.id %>"
+        <%= "checked=\"checked\"" if @post.tags.include?(tag) %>
+      </li>
+    <% end %>
+    <li>Other: <input type="text" name="post[tags_to_add_by_name]"></li>
+  </ul>
+
+  <p>
+    <label>Content</label>
+    <textarea name="post[content]"><%= @post.content %></textarea>
+  </p>
+
+  <input type="submit" value="Update" id="update">
+</form>
