@@ -1,6 +1,9 @@
 # Videos
 
-* [30 Sinatra REST Controller](https://www.youtube.com/watch?v=ODz3uxkhFdA&feature=youtu.be)
+
+* [33 Rails Validation and Forms](https://www.youtube.com/watch?v=pjMITmr8hHA)
+* [32 Rails Intro](https://www.youtube.com/watch?v=cLKCqMz0YsQ)
+* [31 Sinatra REST Controller](https://www.youtube.com/watch?v=ODz3uxkhFdA&feature=youtu.be)
 * [30 Sinatra Nested Forms](https://www.youtube.com/watch?v=tddaIaf4mzY&feature=youtu.be)
 * [29 Sinatra Forms 2](https://www.youtube.com/watch?v=uhim3ZiAlmc)
 * [28 Sinatra Forms 1](https://www.youtube.com/watch?v=lLq3uFVohoc&feature=youtu.be)
