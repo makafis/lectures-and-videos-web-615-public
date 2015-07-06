@@ -1,0 +1,61 @@
+<!-- <form class="new_post" id="new_post" action="/posts" accept-charset="UTF-8" method="post">
+<form class="edit_post" id="edit_post_10" action="/posts/10" accept-charset="UTF-8" method="post">
+ -->
+
+<%= form_for(@post) do |f| %>
+  <% if @post.errors.any? %>
+    <ul>
+    <% @post.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  <% end %>
+
+  <p>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :content %>
+    <%= f.text_area :content %>
+  </p>
+
+  <%= f.submit %>
+<% end %>
+
+<!-- <%#= form_tag(posts_path) do  %>
+  <%# if @post.errors.any? %>
+    <ul>
+    <%# @post.errors.full_messages.each do |msg| %>
+      <li><%#= msg %></li>
+    <%# end %>
+    </ul>
+  <%# end %>
+
+  <p>
+    <%#= label_tag "Title" %>
+    <%#= text_field_tag 'post[title]', @post.title %>
+  </p>
+
+  <p>
+    <%#= label_tag "Content" %>
+    <%#= text_area_tag "post[content]", @post.content %>
+  </p>
+
+  <%#= submit_tag %>
+<%# end %> -->
+
+<!-- <form action="<%#= posts_path %>" method="POST">
+  <p>
+    <label>Title</label>
+    <input type="text" name="post[title]">
+  </p>
+
+  <p>
+    <label>Content</label>
+    <textarea name="post[content]"></textarea>
+  </p>
+
+  <input type="submit" value="Submit" id="submit">
+</form> -->

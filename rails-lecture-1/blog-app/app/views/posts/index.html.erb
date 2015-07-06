@@ -1,0 +1,14 @@
+<h1>Welcome to My Blog</h1>
+
+<ol>
+  <% @posts.each do |post| %>
+    <li>
+    <!--<a href="posts/<%#= post.id %>"><%#= post.title %></a>-->     
+    <!-- <a href="<%#= post_path(post) %>"><%= post.title %></a> -->
+    <%= link_to post.title, post_path(post) %>
+    <%#= link_to post.title, post %>
+    </li>
+  <% end %>
+</ol>
+
+<%= link_to("Make a new blog post!!!!", new_post_path) %>
