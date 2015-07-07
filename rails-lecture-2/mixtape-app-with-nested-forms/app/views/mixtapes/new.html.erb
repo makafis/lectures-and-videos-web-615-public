@@ -1,0 +1,19 @@
+<style>
+.field_with_errors input{
+  border: 1px solid red;
+}
+</style>
+
+<h1>Make a Mixtape</h1>
+
+<%= form_for(@mixtape) do |f| %>
+  <p>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <% if @mixtape.errors[:name].any? %>
+    <small>Please enter a name</small>
+    <% end %>
+  </p>
+
+  <p><%= f.submit %></p>
+<% end %>
