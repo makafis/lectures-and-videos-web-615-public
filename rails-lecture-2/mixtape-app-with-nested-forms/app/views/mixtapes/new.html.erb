@@ -11,9 +11,19 @@
     <%= f.label :name %>
     <%= f.text_field :name %>
     <% if @mixtape.errors[:name].any? %>
-    <small>Please enter a name</small>
+      <small>Please enter a name</small>
     <% end %>
   </p>
+
+  <p>
+    Add Songs:
+
+    <ul>
+      <% # http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-fields_for %>
+      <%= f.fields_for :songs do |song_field| %>
+        <li><%= song_field.text_field :title %></li>
+      <% end %>
+    </ul>
 
   <p><%= f.submit %></p>
 <% end %>

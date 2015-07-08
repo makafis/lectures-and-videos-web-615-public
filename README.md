@@ -1,6 +1,7 @@
 # Videos
 
 
+* [34 Rails Nested Forms](https://www.youtube.com/watch?v=efa216ab6IU)
 * [33 Rails Validation and Forms](https://www.youtube.com/watch?v=pjMITmr8hHA)
 * [32 Rails Intro](https://www.youtube.com/watch?v=cLKCqMz0YsQ)
 * [31 Sinatra REST Controller](https://www.youtube.com/watch?v=ODz3uxkhFdA&feature=youtu.be)
