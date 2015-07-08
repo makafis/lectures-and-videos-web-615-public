@@ -1,6 +1,7 @@
 # Videos
 
 
+* [34 ActiveRecord Query Interface](https://www.youtube.com/watch?v=C5dFfGubksA)
 * [34 Rails Nested Forms](https://www.youtube.com/watch?v=efa216ab6IU)
 * [33 Rails Validation and Forms](https://www.youtube.com/watch?v=pjMITmr8hHA)
 * [32 Rails Intro](https://www.youtube.com/watch?v=cLKCqMz0YsQ)
