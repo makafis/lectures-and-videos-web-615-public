@@ -25,12 +25,3 @@ graces_cart_1.line_items.create(:product => macbook_air)
 avis_cart_2 = avi.carts.create
 avis_cart_2.line_items.create(:product => macbook_air)
 
-# What is the total cost of a cart?
-avis_cart_1.total_cost
-graces_cart_1.total_cost
-avis_cart_2.total_cost
-
-# What is the most popular product?
-Product.most_popular
-
-# Who is the most profitable customer?

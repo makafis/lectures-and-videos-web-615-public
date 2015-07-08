@@ -4,3 +4,16 @@
 require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
+
+task :shop_stats => :environment do
+  # What is the total cost of a cart?
+  puts "#{avis_cart_1.total_cost}"
+  # graces_cart_1.total_cost
+  # avis_cart_2.total_cost
+
+  # What is the most popular product?
+  puts "Most popular Product: #{Product.most_popular}"
+
+  # Who is the most profitable customer?
+  puts "Most profitable customer: #{Customer.most_profitable}"
+end
