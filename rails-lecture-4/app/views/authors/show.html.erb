@@ -1,0 +1,16 @@
+<h1><%= @author.name %></h1>
+
+<h2>Posts:</h2>
+
+<ol>
+  <%# @author.posts.each do |post| %>
+    <%#= render({:partial => 'posts/post', :locals => {:post => post}}) %>
+  <%# end %>
+  <%#= render(:collection => @author.posts, 
+             :partial => "posts/post_li") %>
+
+  <%= render(:collection => @author.posts, 
+             :partial => "posts/post") %>
+
+  <%#= render @author.posts %>
+</ol>

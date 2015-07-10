@@ -1,0 +1,10 @@
+<h1>All Posts (posts#index)</h1>
+
+<ol>
+  <% # iterating through a collection of posts and doing the LI for each %>
+  <% @posts.each do |post| %>
+    <%#= render({:partial => 'posts/post', :locals => {:post => post}}) %>
+    <%#= render('posts/post_li', :post => post) %>
+    <%= render(post) %>
+  <% end %>
+</ol>
